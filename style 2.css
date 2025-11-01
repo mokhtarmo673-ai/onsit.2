@@ -1,0 +1,291 @@
+     /* section 1 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(home_bg.jpeg) ;
+}
+section nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-family: "BBH Sans Bogle", "sans-serif";
+}
+section nav .logo{
+    width: 80px;
+    margin-right:100px ;
+}
+section nav .logo img{
+    width: 100%;
+    margin: 0 40px;
+}
+section nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section nav ul li{
+    list-style-type: none;
+}
+section nav .links ul li a{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+section nav .links ul li a:hover{
+    background-color: orange;
+}
+
+         /* section 2 */
+
+section{
+    height: 100vh;
+    background-image: url(images/home_bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+section::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0.3); */
+}
+section{
+    z-index: 10px;
+}
+
+section .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+section .navbar h1{
+    font-size: 40px;
+    color: aliceblue;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-family: "BBH Sans Bogle", sans-serif;
+    font-weight: 400;
+}
+section .navbar span{ 
+    font-size: 40px;
+    color: #e4b95b;
+    word-spacing: 5px;
+    font-family: "BBH Sans Bogle", sans-serif;
+    font-weight: 400;
+}
+section .navbar p{
+    font-size: 15px;
+    color: aliceblue;
+    padding: 10px;
+}
+section .navbar a{
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+section .navbar a{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+section .navbar a:hover {
+    background: #e4b95b;
+}
+
+
+/* section 2 */
+
+
+header{
+    background-color: white;
+}
+header .container h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    font-family: "BBH Sans Bogle", sans-serif;
+}
+header .container p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #9a9a9a;
+    margin: 10px;
+}
+
+header .about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .about-content p{
+    margin: 10px;
+    line-height: 1.6;
+    color: #9a9a9a;
+    font-weight: 500;
+    font-size: 23px;
+}
+header .about-content .btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color:#383848 ;
+    text-decoration: none;
+    line-height: 1.6;
+    color:white;
+    margin-left: 30px;
+}
+header .about-content .btn:hover{
+    background-color: #e4b95b;
+}
+header .about-content img{
+    width: 500px;
+    margin: 10px;
+}
+
+
+
+         /* section3 */
+
+
+section .offers{
+    background-color: rgb(11, 11, 37);
+}
+section .offers .contianer .title h2{
+    color: #e4b95b;
+    text-align: center;
+    font-size: 47px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    word-spacing: 3px;
+    font-family: "BBH Sans Bogle", sans-serif;
+}
+section .offers .contianer .title p{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    word-spacing: 7px;
+}
+section .item-offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+       /* item 1 */
+section .item-offers .text-offer1{
+    text-align: center;
+    margin: 100px 50px;
+    padding: 10px;
+}
+section .item-offers .text-offer1 .img1 img{
+    background-color: white;
+    text-align: center;
+    width: 200px;
+}
+section .item-offers .text-offer1 h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+}
+section .item-offers .text-offer1 p{
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
+    word-spacing: 3px;
+}
+section .item-offers .text-offer1 .coust span{
+    color: #e4b95b;
+    font-size: 25px;
+    font-weight: 500;
+}
+      /* item 2 */
+section .item-offers .text-offer2{
+    text-align: center;
+    margin: 100px 50px;
+    padding: 10px;
+}
+section .item-offers .text-offer2 .img2 img{
+    background-color: white;
+    text-align: center;
+    width: 200px;
+}
+section .item-offers .text-offer2 h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+}
+section .item-offers .text-offer2 p{
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
+    word-spacing: 3px;
+}
+section .item-offers .text-offer2 .coust span{
+    color: #e4b95b;
+    font-size: 25px;
+    font-weight: 500;
+}
+      /* item 3 */
+section .item-offers .text-offer3{
+    text-align: center;
+    margin: 100px 50px;
+    padding: 10px;
+}
+section .item-offers .text-offer3 .img3 img{
+    background-color: white;
+    text-align: center;
+    width: 200px;
+}
+section .item-offers .text-offer3 h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+}
+section .item-offers .text-offer3 p{
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
+    word-spacing: 3px;
+}
+section .item-offers .text-offer3 .coust span{
+    color: #e4b95b;
+    font-size: 25px;
+    font-weight: 500;
+}
